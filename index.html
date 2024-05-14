@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>University Web Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png" height="100px" width="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="false" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-times"></i>
+        </nav>
+        <div class="mainpage-decor">
+            <h1>CODING UNIVERSITY</h1>
+            <p>Welcome to the world's premier coding university, where innovation meets<br> education on an unparalleled scale.</p>
+            <a href="" class="visit-bt">Visit us to know more</a>
+        </div>
+        </section>
+        <section class="Course">
+            <h1>Courses we offer</h1>
+            <p>There are some courses we offer to you via our university</p>
+            <div class="row">
+                <div class="course-row">
+                    <h3>Degree</h3>
+                    <p>At the heart of a bustling city, the university stands as a beacon of knowledge and exploration. Its sprawling campus is a mosaic of architectural styles, blending tradition with modernity. Towering lecture halls and ivy-covered buildings exude an aura of scholarly wisdom, while vibrant student commons buzz with youthful energy.</p>
+                </div>
+                <div class="course-row">
+                    <h3>Post Graduation</h3>
+                    <p>At the heart of a bustling city, the university stands as a beacon of knowledge and exploration. Its sprawling campus is a mosaic of architectural styles, blending tradition with modernity. Towering lecture halls and ivy-covered buildings exude an aura of scholarly wisdom, while vibrant student commons buzz with youthful energy.</p>
+                </div>
+                <div class="course-row">
+                    <h3>Internship</h3>
+                    <p>At the heart of a bustling city, the university stands as a beacon of knowledge and exploration. Its sprawling campus is a mosaic of architectural styles, blending tradition with modernity. Towering lecture halls and ivy-covered buildings exude an aura of scholarly wisdom, while vibrant student commons buzz with youthful energy.</p>
+                </div>
+            </div>
+        </section>
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Here is the our universities arround the world</p>
+            <div class="row">
+                <div class="campus-colum">
+                    <img src="images/image6.jpeg">
+                </div>
+            </div>
+        </section>
+
+
+   <!------Java Script----->
+        <script>
+            var navLinks = document.getElementById("naviLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
