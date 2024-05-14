@@ -205,7 +205,93 @@ nav .fa{
     margin-bottom: 30px;
     overflow:hidden;
     margin-left: 5%;
+    margin-right: 5%;
 }
 .campus-colum img{
-    width:100%;
+    width:auto;
+    height: 200px;
+    display: block;
+}
+.layer{
+    background: transparent;*
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: 0.7s;
+}
+.layer h3{
+    margin-top: 10px;
+    transition: 1s;
+    color: #fff;
+    text-align: center;
+    margin-top: 33%;
+    opacity: 0;
+}
+.layer:hover{
+    background: rgba(227, 226, 226, 0.7);
+    cursor: pointer;
+}
+.layer:hover h3{
+    scale: 180%;
+    color: #000000;
+    opacity: 1;
+    border: #777;
+}
+@media (max-width:700px){
+    .campus h1{
+        font-size: 20px;
+    }
+    .campus p{
+        margin-top: 20px;
+        font-size: 12px;
+        color: #777;
+        margin-bottom: 30px;
+    }
+    .layer h3{
+        margin-top: 25%;
+    }
+    .campus-colum img{
+        width:100%;
+        height: 100%;
+        max-height: 200px;
+        display: block;
+    }
+}
+.facilities{
+    text-align: center;
+    margin-top: 20px;
+}
+.facilities h3{
+    font-size: 30px;
+}
+.facilities p{
+    font-size: 15px;
+    color: #777;
+    margin-top: 20px;
+}
+.facilities-col{
+    flex-basis: 35%;
+    border-radius: 10px;
+}
+.facilities-col img{
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:center;
+}
+.facilities-col h3{
+    margin-top: 20px;
+    margin-left:5% ;
+    font-size: 20px;
+    text-align: left;
+}
+.facilities-col p{
+    font-size: 13px;
+    margin-top: 4px;
+    margin-left:5% ;
+    text-align: left;
+    margin-bottom: 20px;
 }
