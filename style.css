@@ -376,17 +376,31 @@ nav .fa{
 }
 .icons .fa{
     margin: 20px;
-    border: 1px solid #000000;
+    border: 1px solid rgb(240, 88, 0);;
     padding: 10px 10px;
     border-radius: 8px;
     transition: .5s;
+    color: rgb(240, 88, 0);
 }
 .icons .fa:hover{
-    background: #58aef9;
+    background: rgb(240, 88, 0);;
     color: #fff;
     border: none;
 }
 .icons{
     margin-top: 30px;
     margin-bottom: 20px;
+}
+/*--------about----------*/
+.sub-header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)),url(images/image14.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    font-family: "Raleway", sans-serif;
+}
+.sub-header h1{
+    font-size: 50px;
 }
