@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>University Web Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+    <body>
+        <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.png" height="100px" width="100px"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-times"></i>
+        </nav>
+        <div class="mainpage-decor">
+            <h1>What We Offer In This Year<br>(2024)</h1>
+        </div>
+        </section>
+        <!------blog section----->
+        <section class="blog">
+            <div class="row">
+                <div class="blog-left">
+                <img src="images/image15.jpeg">
+                <h2>Our Online Programmes</h2>
+                <p>Our University offers a comprehensive suite of online programs designed to cater to the diverse needs of students worldwide. Our online courses span various disciplines, including business, technology, health sciences, and liberal arts, ensuring that there is a program suited to every interest and career aspiration. With flexible scheduling and asynchronous learning options, students can balance their studies with personal and professional commitments, making it easier to achieve their academic goals without sacrificing other responsibilities.<br><br>
+
+Our online programs are crafted to provide an engaging and interactive learning experience, leveraging the latest in educational technology. Through a combination of video lectures, interactive assignments, and real-time discussions, students are encouraged to participate actively in their learning journey. Our virtual classrooms foster collaboration and community, allowing students to connect with peers and instructors from around the globe. This dynamic environment not only enhances learning but also helps build a network of professional relationships that can last a lifetime.<br><br>
+
+At Green Valley University, we pride ourselves on the quality of our faculty and the support services available to our online students. Our courses are taught by experienced professors who are experts in their fields, ensuring that students receive a high-quality education that is both current and relevant. Additionally, online students have access to a wide range of support services, including academic advising, tutoring, career counseling, and technical assistance. We are committed to providing our online learners with the resources they need to succeed academically and professionally.<br><br>
+
+Our online programs are designed with a strong emphasis on career readiness and professional development. Many of our courses include practical, hands-on experiences such as internships, projects, and case studies that prepare students for the demands of the workplace. Green Valley University also offers numerous networking opportunities, career fairs, and job placement services to help students transition smoothly from their studies to their chosen careers. By choosing GVU's online programs, students gain the skills, knowledge, and connections necessary to thrive in today's competitive job market.</p>
+                
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="visit-bt red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Computer science</span>
+                        <span>98</span>
+                    </div>
+                    <div>
+                        <span>Data science</span>
+                        <span>25</span>
+                    </div>
+                    <div>
+                        <span>Physical science</span>
+                        <span>129</span>
+                    </div>
+                    <div>
+                        <span>Bio science</span>
+                        <span>95</span>
+                    </div>
+                    <div>
+                        <span>Managment</span>
+                        <span>165</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!------blog section----->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>The  The campus life is vibrant, with numerous extracurricular activities and a strong sense of community.<br> Highly recommended for a well-rounded educational experience.</p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Axel Solutions</p>
+    </section>
+   <!------Java Script----->
+        <script>
+            var navLinks = document.getElementById("naviLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
