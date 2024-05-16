@@ -80,7 +80,7 @@ nav img{
     cursor: pointer;
 }
 .visit-bt:hover{
-    border: 2px solid rgb(255, 81, 0);
+    border: 1px solid rgb(255, 81, 0);
     background: rgb(255, 81, 0);
     transition: 0.7s;
 }
@@ -213,7 +213,7 @@ nav .fa{
     display: block;
 }
 .layer{
-    background: transparent;*
+    background: transparent;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -502,4 +502,53 @@ nav .fa{
     .sub-header h1{
         font-size: 24px;
     }
+}
+.location{
+    width: 80%;
+    margin:auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width:100%;
+}
+.location-sec{
+    width: 80%;
+    margin: auto;
+}
+.location-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.location-col div{
+    display:flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.location-col .fa{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+.location-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    text-align: left;
+}
+.location-col div p{
+    text-align: left;
+    display: flex;
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+}
+.contact-col button{
+    margin: 20px 0px;
 }
